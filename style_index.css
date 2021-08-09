@@ -1,0 +1,67 @@
+
+.bg-img{
+    background-image: url(img-index/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    margin: -7px;
+}
+
+.header > h1{
+    display: inline-block;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.header > img{
+    width: 100px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 50%;
+    
+}
+
+.menu > ul{
+    display: flex;
+    list-style: none;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.75em;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.menu > ul > li{
+    padding: 15px;
+}
+
+.menu > ul > li > a{
+    color: #D5F2F2;
+    text-decoration: none;
+    background-color: #055C6B;
+    border-radius: 12%;
+    padding: 7px;
+}
+
+.link:hover{
+    color: #055C6B;
+    background-color: #D5F2F2;
+}
+
+.main{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #094550;
+}
+
+.portafolio{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2em;
+}
