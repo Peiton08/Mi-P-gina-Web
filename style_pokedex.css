@@ -1,0 +1,169 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0; 
+}
+
+main{
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.header{
+    background-color: #941f19;
+    color: whitesmoke;
+}
+
+.header > h1{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 0;
+    text-align: left;
+    font-size: 70px;
+    font-family: 'Shadows Into Light', cursive;
+    margin-bottom: 0;
+}
+
+.header > img{
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.menu > ol{
+    display: flex;
+    list-style: none;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.75em;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.menu > ol > li{
+    padding: 15px;
+}
+
+.menu > ol > li > a{
+    color: #941f19;
+    text-decoration: none;
+    background-color: #ffb8b3;
+    border-radius: 12%;
+    padding: 7px;
+}
+
+.link:hover{
+    color: #ffb8b3;
+    background-color: #941f19
+}
+
+#left{
+    width: 250px;
+    height: 300px;
+    float: left;
+    background-color: #941f19;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#right{
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    background-color: #941f19;
+    border-left-color: #691b17;
+    border-left-style: solid;
+    border-left-width: 3px;
+    float: left;
+    border-bottom-right-radius: 30px;
+}
+
+.display{
+    border-color: #353232;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 5px;
+}
+#left > .display > img{
+    margin: 15px;
+    width: 150px;
+    position:absolute; bottom: 165px;
+}
+
+#left > .display{
+    width: 180px;
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 40px;
+    background-color: white;
+}
+
+#right > .display{
+    width: 180px;
+    height: 120px;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: seagreen;
+    font-size: 12px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+li > p{
+    margin: 0 5px;
+}
+
+#dpad{
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#dpad-top, #dpad-bottom{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    background-color: #222222;
+}
+
+#dpad-horizontal{
+    width: 60px;
+    height: 20px;
+    background-color: #222222;
+}
+
+#btn-circle{
+    width: 50px;
+    height: 50px;
+    margin-left: 95px;
+    border-style: solid;
+    border-color: #0B2E7A;
+    background-color: #1455E0;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+#pad{
+    width: 148px;
+    height: 65px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+#pad > .btn{
+    width: 25px;
+    height: 25px;
+    background-color: #1455E0;
+    display: inline-block;
+    border-style: solid;
+    border-color: #0B2E7A;
+    border-width: 2px;
+    border-radius: 3px;
+}

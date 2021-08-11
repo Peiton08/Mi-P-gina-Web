@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_pokedex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <title>Pokédex</title>
 </head>
 <body>
-    <header>
-        <img id="logo" src="img-pokedex/pokeball.png" alt="logo">
+    <header class="header">
+        <img class="logo" src="img-pokedex/pokeball.png" alt="logo">
         <h1>Mi Pokédex</h1>
     </header>
-    <nav>
+    <nav class="menu">
         <ol>
-            <li>INICIO</li>
-            <li>ACERCA</li>
+            <li><a class="link" href="index.html">INICIO</a></li>
+            <li><a class="link" href="portafolio.html">PORTAFOLIO</a></li>
         </ol>
     </nav>
     <main>
@@ -23,7 +27,11 @@
                 <div class="display">
                     <img id="pkmn-img" src="img-pokedex/eve.png" alt="pokemon-eve">
                 </div>
-                <div id="dpad"></div>
+                <div id="dpad">
+                    <div id="dpad-top"></div>
+                    <div id="dpad-horizontal"></div>
+                    <div id="dpad-bottom"></div>
+                </div>
                 <div id="btn-circle"></div>
                 
             </div>
@@ -31,23 +39,25 @@
                 <div class="display">
                     <ul>
                         <li>
-                            <p><b>NOMBRE:</b></p>
+                            <p><b>NOMBRE:</b>Eevee</p>
                         </li>
                         <li>
-                            <p><b>TIPO:</b></p>
+                            <p><b>TIPO:</b>Normal</p>
                         </li>
                         <li>
-                            <p><b>PESO:</b></p>
+                            <p><b>PESO:</b>6.5 kg</p>
                         </li>
                         <li>
-                            <p><b>ALTURA:</b></p>
+                            <p><b>ALTURA:</b>0.3 m</p>
                         </li>
                         <li>
-                            <p><b>DESCRIPCIÓN:</b></p>
+                            <p><b>DESCRIPCIÓN:</b>Es capaz de alterar la composición de su cuerpo para adaptarse al entorno.</p>
                     </li>
                     </ul>
                 </div>
                 <div id="pad">
+                    <div class="btn"></div>
+                    <div class="btn"></div>
                     <div class="btn"></div>
                     <div class="btn"></div>
                     <div class="btn"></div>

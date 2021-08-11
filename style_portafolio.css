@@ -1,9 +1,6 @@
 
-.bg-img{
+body{
     background-image: url(img-index/fondo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-attachment: fixed;
 }
 
@@ -43,13 +40,13 @@
 .menu > ul > li > a{
     color: #D5F2F2;
     text-decoration: none;
-    background-color: #055C6B;
+    background-color: #41B3BF;
     border-radius: 12%;
     padding: 7px;
 }
 
 .link:hover{
-    color: #055C6B;
+    color: #41B3BF;
     background-color: #D5F2F2;
 }
 
@@ -57,10 +54,38 @@
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 1.5em;
     text-align: center;
-    color: #094550;
+    color: #148BA6;
 }
 
-.portafolio{
+.section{
     font-family: 'Shadows Into Light', cursive;
-    font-size: 2em;
+    font-size: 1.8em;
+    text-align: center;
+    
+}
+
+.btn{
+    color: #41B3BF;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logo{
+    border-radius: 50%;
+    width: 170px;
+}
+
+#pokedex{
+    width: 270px;
+}
+
+#cactus{
+    width: 250px;
+}
+
+#espacio{
+    width: 300px;
+    border-radius: 10%;
 }
