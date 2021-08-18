@@ -65,3 +65,81 @@
     font-size: 2em;
 }
 
+@media screen and (max-width:500px){
+    .menu > ul{
+        display: block;
+        justify-content: center;
+        padding: 0; 
+        width: 100%;
+        height: auto;
+    }
+    .nav-items{
+        margin: 5px 0px;
+        width: 80px;
+    }
+    .items-menu{
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .item{
+        width: 90%;
+        margin-bottom: 30%;
+        display: block;
+    }
+    .header{
+        padding: 0;
+        margin-bottom: 10px;
+        display: block;
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+}
+
+@media screen and (min-width:505px){
+    .item{
+        width: 70%;
+    }    
+    nav{
+        height: 120px;
+    }
+}
+
+@media screen and (min-width:700px){
+    .item{
+        width: 70%;
+    }    
+    nav{
+        height: 75px;
+        align-content: flex-start;
+    }
+}
+
+@media screen and (min-width:980px){
+    .item{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:1040px){
+    .class-marca{
+        margin-bottom: 10px;
+    }
+    .class-header{
+        display: block;
+        justify-content: space-between;
+        align-content: center;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .item{
+        width: 22%;
+    }    
+    .class-header{
+        padding: 0px 60px;
+    }
+    main{
+        padding: 20px 50px;
+    }
+}
