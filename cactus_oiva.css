@@ -1,0 +1,20 @@
+.bg-color{
+    background-color: #506AD4;
+    margin: 20px; 
+    padding: 3px;
+}
+
+
+.yellow-text{
+    color: #F2CC39;
+    font-family: 'Courier Prime', monospace; 
+    font-size: 50px;
+}
+
+li, a{
+    color: #F2CC39;
+    font-family: 'Courier Prime', monospace; 
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+}
