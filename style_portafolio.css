@@ -59,7 +59,7 @@ body{
 
 .section{
     font-family: 'Shadows Into Light', cursive;
-    font-size: 1.8em;
+    font-size: 2em;
     text-align: center;
     
 }
@@ -74,7 +74,7 @@ a{
 
 #logo{
     border-radius: 50%;
-    width: 170px;
+    width: 200px;
 }
 
 #pokedex{
@@ -88,4 +88,8 @@ a{
 #espacio{
     width: 300px;
     border-radius: 10%;
+}
+
+#pizza{
+    width: 250px;
 }
