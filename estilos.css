@@ -10,6 +10,17 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+.contenedor2 {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+
+	display: grid;
+    grid-template-columns: 1fr 3fr;
+	gap: 20px;
+}
+
 .contenedor {
 	width: 90%;
 	max-width: 1200px;
@@ -52,7 +63,32 @@ body {
 	padding: 20px;
 	background-size: cover;
 	background-position: center center;
-    font-family: 'Courier Prime', monospace;
-    color: #000000;
+    font-family: 'Dosis', sans-serif;
+	font-weight: 500;
+    color: #ffffff;
 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.banner, p {
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.banner .boton {
+	background: #32965D;
+	color:#ffffff;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Dosis', sans-serif;
+	cursor: pointer;
 }
